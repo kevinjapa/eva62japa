@@ -18,12 +18,7 @@ public class GMotocicletaService {
 	@Inject
 	private GestionMotocicleta gestionMoto;
 	
-	@GET
-	@Path("saludo")
-	public String saludo() {
-		return "hola mundo ";
-	}
-	
+
 	@GET
 	@Path("listaMotocicleta")
 	@Produces("application/json")
